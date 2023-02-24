@@ -19,8 +19,6 @@ public class MainViewPagerAdapter extends FragmentStateAdapter {
     @Override
     public Fragment createFragment(int position) {
         switch (position) {
-            case 0:
-                return new HomeFragment();
             case 1:
                 return new AlgebraFragment();
             case 2:
