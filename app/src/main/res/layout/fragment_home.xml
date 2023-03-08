@@ -6,8 +6,19 @@
     tools:context=".fragment.HomeFragment">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/txtHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Рекомендуемые задачи по метематике "
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:padding="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/txtHome"
+        android:layout_alignParentEnd="true"
+        android:text="->" />
 
 </RelativeLayout>
