@@ -13,13 +13,12 @@
         android:textSize="16dp"
         android:textColor="@color/black"
         android:padding="16dp"/>
-    <Button
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toEndOf="@id/txtAlg"
+        android:src="@drawable/baseline_arrow_forward_24"
         android:layout_alignParentEnd="true"
-        android:drawableRight="@drawable/baseline_arrow_forward_24"
-        android:background="?android:selectableItemBackground"/>
+        android:padding="16dp" />
 
 
     <com.google.android.material.card.MaterialCardView
@@ -55,14 +54,16 @@
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
-    <Button
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:linksClickable="true"
-        android:drawableRight="@drawable/baseline_calculate_24"
-        android:text="Калькулятор" />
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Калькулятор"
+        app:icon="@drawable/baseline_calculate_24" />
+
 
 
 </RelativeLayout>
