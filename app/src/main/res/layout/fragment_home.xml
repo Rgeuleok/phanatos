@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.HomeFragment">
+    tools:context=".fragment.HomeFragment"
+    >
 
     <TextView
         android:id="@+id/txtHome"
@@ -19,7 +20,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@id/txtHome"
-        android:text="->" />
+        android:drawableRight="@drawable/baseline_arrow_forward_24"
+        android:background="?android:selectableItemBackground"
+        />
 
 
     <com.google.android.material.card.MaterialCardView
@@ -38,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="12dp"
-                android:text="Header"
+                android:text="алгебра/геометрия"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -49,7 +52,7 @@
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="2dp"
                 android:layout_marginBottom="12dp"
-                android:text="Subheader"
+                android:text="тема"
                 android:textSize="17dp" />
 
 

@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/txtGeom"
         android:layout_alignParentEnd="true"
-        android:text="->"/>
+        android:drawableRight="@drawable/baseline_arrow_forward_24"
+        android:background="?android:selectableItemBackground"/>
 
 
     <com.google.android.material.card.MaterialCardView

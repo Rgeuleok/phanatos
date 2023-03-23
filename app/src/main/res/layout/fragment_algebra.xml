@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/txtAlg"
         android:layout_alignParentEnd="true"
-        android:text="->"/>
+        android:drawableRight="@drawable/baseline_arrow_forward_24"
+        android:background="?android:selectableItemBackground"/>
 
 
     <com.google.android.material.card.MaterialCardView
@@ -59,7 +60,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:linksClickable="true"/>
+        android:linksClickable="true"
+        android:drawableRight="@drawable/baseline_calculate_24"
+        android:text="Калькулятор" />
 
 
 </RelativeLayout>
